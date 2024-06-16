@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Cerebri_Sans_Pro_ExtraBold';
+    src: url("../font/CerebriSansPro-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: 'Cerebri_Sans_Pro_Medium';
+    src: url("../font/CerebriSansPro-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'CerebriSansPro_Light';
+    src: url("../font/CerebriSansPro-Light.ttf");
+}
+
+.events{
+    margin-top: 30px;
+    padding: 0px;
+}
+
+
+body{
+    margin: 0px;
+}
+h1{
+    font-family: Cerebri_Sans_Pro_ExtraBold;
+    color: #10876a;
+    margin: 0px;
+    font-size:20px;
+}
+h2{
+    margin: 0px;
+    font-family: Cerebri_Sans_Pro_Medium;
+}
+p{
+    font-family: CerebriSansPro_Light;
+    margin: 0px;
+}
+.title{
+    padding-left: 20px;
+}
+.title img{
+    width: 70px;
+    margin: 0px;
+    position: relative;
+    top: -10px;
+    left: 4px;
+}
+
+.elements .element{
+    margin-left: 20px;
+    width: 140px;
+    padding: 5px;
+    height: 180px;
+    background: white;
+}
+.element .pic{
+    overflow: hidden;
+    width: 139px;
+    height: 80px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.element img{
+    width: 120%;
+}
+.element h2{
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 10px;
+    padding-left: 4px;
+    width: 140px;
+}
+.element p{
+    font-size: 12px;
+    color: gray;
+    padding-left: 4px;
+    margin-top: 5px;
+    margin-left: 4px;
+    width: 140px;
+}
+.content{
+    height: 160px;
+}
+.footofelement{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.likes{
+    display: flex;
+    width: 50px;
+    justify-content: flex-start;
+
+}
+.readmore{
+    width: 80px;
+}
+.readmore a{
+    background: #10876a;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    display: block;
+    width: 60px;
+    font-size: 10px;
+    position: relative;
+    text-decoration: none;
+    border-radius: 100px;
+    font-family: CerebriSansPro_Light;
+}
+

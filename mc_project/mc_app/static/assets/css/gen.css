@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+}
+
+.normalheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.searchicon{
+    display: flex;
+    justify-content: flex-end;
+    width: 170px;
+}
+.searchicon img{
+    width: 35px;
+}
+.logo{  width: 120px;}
+.logo img{
+    width: 120px;
+}
+.searchbarheader{
+    display: none;
+    padding: 25px;
+    width: 100%;
+    padding-left: 10px;
+}
+.searchbarheader input{
+    width: 90%;
+    height: 22px;
+    border-radius: 100px;
+    border: 1px solid gray;
+}

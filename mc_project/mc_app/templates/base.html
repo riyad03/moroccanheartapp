@@ -1,0 +1,30 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% block style %}{% endblock %}
+    <link rel="stylesheet" href="{% static 'assets/css/gen.css' %}">
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+<body>
+    <header>
+        <section class="normalheader">
+        <div class="logo"><img src="{% static 'assets/logopic/logo.svg' %}" alt=""></div>
+        <div class="searchicon">
+           <img src="{% static 'assets/header/search.svg' %}" alt="">
+        </div>
+        </section>
+        <section class="searchbarheader">
+            <input type="text">
+        </section>
+
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    
+</body>
+</html>    
